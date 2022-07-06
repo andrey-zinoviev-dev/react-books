@@ -1,0 +1,24 @@
+@import url(../../blocks/container.css);
+.container_flex {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header__logo {
+  max-width: 60px;
+}
+.header__span {
+  font-size: 28px;
+  color: transparent;
+  -webkit-text-stroke: 1px rgb(255 33 90);
+  text-shadow: 0 0 10px rgb(255 33 90);
+}
+.header__nav-list {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  list-style: none;
+  min-width: 160px;
+  padding: 0;
+}

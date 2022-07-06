@@ -1,0 +1,16 @@
+.content__headline-list-element {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  min-height: 450px;
+  min-width: 280px;
+}
+.content__headline-list-element-headline {
+  margin: 0;
+}
+.content__headline-list-element-img {
+  max-width: 230px;
+  min-height: 340px;
+  object-fit: cover;
+}
